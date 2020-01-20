@@ -24,9 +24,9 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = '^if*z#sky$*a42hf37uwkb!-$jetjenonvb%$q%u0k3*7-da^5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = [now.sh]
+ALLOWED_HOSTS = []
 
 
 # Application definition
